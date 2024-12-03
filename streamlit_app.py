@@ -147,7 +147,7 @@ with st.container():
 
             df_3=df_3.reset_index()
 
-            st.subheader("Pie Chart")
+            st.subheader("World Map :: Streamlit map")
             list_from_df = df_3['latitude'].tolist()
             list_from_df = list(map(float, list_from_df)) 
             list_from_df2 = df_3['longitude'].tolist()
@@ -204,7 +204,7 @@ with st.container():
                 
                 
             #3 지도 제목과 캡션 추가
-            st.title('Map with Location Data')
+            st.title('Map with Location Data : Folium feat')
             st.caption(
                 "Displaying geographical data on a map using Streamlit and Folium")
 
