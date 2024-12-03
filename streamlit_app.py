@@ -115,10 +115,10 @@ with st.container():
     #         success_b=True
     if success_b:        
         df_2 = pd.read_csv('houseprice.csv', sep=',',engine='python')
-        df_2
+
         bid_toal_count=df_2.iloc[0,0]
-        
         st.write("외교부 해외입찰 데이터:", bid_toal_count, "건이 수집되었습니다.")
+        df_2
         country=df_2['제목'].str.split("[", expand=True)[1]
         country=country.str.split("]", expand=True)[0]
         
