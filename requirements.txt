@@ -2,7 +2,7 @@ streamlit
 requests
 pandas
 requests
-BeautifulSoup
+beautifulsoup4
 numpy
 folium
 time
