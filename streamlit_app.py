@@ -23,7 +23,7 @@ def korea():
 
 # Sidebar config
 with st.sidebar:
-    st.title("Table Crawler")
+    st.title("KEDA(Kepco global bidding Data)")
     st.write("A simple table crawler built with Python")
     
     # Input for URL
