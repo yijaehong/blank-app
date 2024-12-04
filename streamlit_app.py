@@ -100,7 +100,7 @@ with st.sidebar:
 
 # Main Container config
 with st.container():
-    st.markdown("#### Scraped Tables from the URL :blue[cool] :sunglasses:")
+    st.markdown("####🎉 KEDA(Kepco global bidding Data) :blue[태양의 후예] :sunglasses:")
     success_b=True
     map_data=pd.DataFrame()
     # if tables:
