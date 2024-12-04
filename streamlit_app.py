@@ -12,7 +12,7 @@ import numpy as np
 import folium
 import time
 
-st.set_page_config(page_title="Table Crawler", page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="KEDA", page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
 
 connection = False
 tables=[]
