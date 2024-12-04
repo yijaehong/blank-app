@@ -118,7 +118,9 @@ with st.container():
         df_2 = pd.read_csv('houseprice.csv', sep=',',engine='python')
 
         bid_toal_count=df_2.iloc[0,0]
-        st.write("외교부 해외입찰 데이터:", bid_toal_count, "건이 수집되었습니다.")
+        bid_csv_toal_count=df_2.count()[0]
+        st.write("전체 외교부 해외입찰 데이터:", bid_toal_count, "건이 수집되었습니다.")
+        st.write("최근 3년 외교부 해외입찰 데이터:", bid_csv_toal_count, "건이 수집되었습니다.")
         df_2
         country=df_2['제목'].str.split("[", expand=True)[1]
         country=country.str.split("]", expand=True)[0]
@@ -129,7 +131,7 @@ with st.container():
             
             df_3 = pd.read_csv('national_count.csv', sep=',',engine='python')
             df_3.columns = ['Country', 'Count']   
-            st.subheader("Number of bids by country")   
+            st.subheader("Number of bids by country(for the past 3 years)") 
             df_3      
         
 
