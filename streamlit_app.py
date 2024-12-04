@@ -101,7 +101,7 @@ with st.sidebar:
 # Main Container config
 with st.container():
     st.title("🎉 KEDA(Kepco global bidding Data)")
-    st.markdown("#  :blue[태양의 후예] ❄️❄️")
+    st.markdown("#  :blue[태양의 후예] ☀️")
     success_b=True
     map_data=pd.DataFrame()
     # if tables:
@@ -214,5 +214,5 @@ with st.container():
 
             st.subheader("Map with Location Data : Folium feat")
             #4 지도 시각화
-            st.components.v1.html(my_map._repr_html_(), width=800, height=600)
+            st.components.v1.html(my_map._repr_html_())
 
