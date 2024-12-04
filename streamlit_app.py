@@ -100,7 +100,8 @@ with st.sidebar:
 
 # Main Container config
 with st.container():
-    st.title("🎉 KEDA(Kepco global bidding Data) :blue[태양의 후예] ❄️❄️")
+    st.title("🎉 KEDA(Kepco global bidding Data)")
+    st.markdown("#  :blue[태양의 후예] ❄️❄️")
     success_b=True
     map_data=pd.DataFrame()
     # if tables:
