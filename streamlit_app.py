@@ -33,7 +33,7 @@ with st.sidebar:
     
     genre = st.radio(
     "What's your favorite movie genre",
-    [":rainbow[외교부]🎈", "조달청(Crawing 대기)🧊", "한국투자공사(Crawing 대기)🧊 "],
+    [":rainbow[외교부]🌞", "조달청(Crawing 대기)🧊", "한국투자공사(Crawing 대기)🧊 "],
     index=0
     )
 
