@@ -214,5 +214,5 @@ with st.container():
 
             st.subheader("Map with Location Data : Folium feat")
             #4 지도 시각화
-            st.components.v1.html(my_map._repr_html_(),height=600)
+            st.components.v1.html(my_map._repr_html_(),height=1200)
 
