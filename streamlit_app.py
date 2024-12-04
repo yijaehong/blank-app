@@ -131,7 +131,7 @@ with st.container():
             
             df_3 = pd.read_csv('national_count.csv', sep=',',engine='python')
             df_3.columns = ['Country', 'Count']   
-            st.subheader("Number of bids by country(for the past 3 years)") 
+            st.subheader("Number of bids by country..for the past 3 years") 
             df_3      
         
 
